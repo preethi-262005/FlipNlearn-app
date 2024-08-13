@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto:wght@300;500&family=Russo+One&display=swap');
+
+.id10 .background-image {
+    background-image: url('https://img.freepik.com/free-photo/flat-lay-desk-concept-with-copy-space_23-2148459658.jpg?t=st=1723472434~exp=1723476034~hmac=cd9870c50ea49d15bc0dc4541a8d57b9fdf9f7cda5968bfa85e542d275ada484&w=996');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    color: black;
+}
+
+.id10 .content {
+    text-align: center;
+    margin-left: 280px; 
+    margin-top: 55px;
+}
+
+.id10 .heading {
+    font-size: 4rem;
+    text-align: center; 
+    font-family: Georgia, serif;
+    color: aliceblue;
+}
+
+.id10 .buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px; 
+}
+
+.id10 button {
+    background-color: black; 
+    border: none;
+    border-radius: 50px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: white; 
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.id10 button:hover {
+    background-color: #333; 
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.id10 .heading-part {
+    color: rgb(36, 31, 31);
+    font-family: 'Edu VIC WA NT Beginner', cursive; 
+}
